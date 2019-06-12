@@ -31,11 +31,11 @@ class Base {
 
     protected void run(double r) {
         //double r = 0;
-        if (r < 0.1) {
+        if (r == 0.1) {
             fail("oops");
         }
-        if (r < 0.1) {
-            throw new AssumptionViolatedException("skipping");
+        if (r > 0.1) {
+            throw new AssumptionViolatedException("passing");
         }
     }
 
