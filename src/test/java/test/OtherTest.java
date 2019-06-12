@@ -27,9 +27,10 @@ package test;
 import org.junit.Test;
 
 public class OtherTest extends Base {
+    double r = 0;
 
     @Test public void mytest() {
-        run();
+        run(0.3);
     }
 
 }

@@ -29,27 +29,27 @@ import org.junit.Test;
 public class SomeTest extends Base {
 
     @Test public void test1() {
-        run();
+        run(0.1);
     }
 
     @Test public void test2() {
-        run();
+        run(0.1);
     }
 
     @Test public void test3() {
-        run();
+        run(0.1);
     }
 
     @Test public void test4() {
-        run();
+        run(0.1);
     }
 
     @Test public void test5() {
-        run();
+        run(0.1);
     }
 
     @Test public void test6() {
-        run();
+        run(0.1);
     }
 
 }
