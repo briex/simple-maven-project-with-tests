@@ -35,7 +35,8 @@ class Base {
             fail("oops");
         }
         if (r > 0.1) {
-            throw new AssumptionViolatedException("passing");
+            assert(true);
+            //throw new AssumptionViolatedException("Skipped");
         }
     }
 
