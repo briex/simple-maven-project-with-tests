@@ -19,4 +19,9 @@ public class MyClassTest {
         MyClass tester = new MyClass();
         assertEquals("10 x 5 must be 50", 50, tester.multiply(10, 5));
     }
+    @Test
+    public void testSplit() {
+        MyClass tester = new MyClass();
+        assertEquals("10 / 5 must be 2", 2, tester.multiply(10, 5));
+    }
 }
